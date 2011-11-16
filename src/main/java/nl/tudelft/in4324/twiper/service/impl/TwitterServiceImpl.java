@@ -14,8 +14,8 @@ public class TwitterServiceImpl implements TwitterService {
         this.twitter = new TwitterFactory().getInstance();
     }
 
-    public List<Tweet> getMostPopularTweetsForTrend(String trend, int numberTweets) {
-        Query query = new Query(trend);
+    public List<Tweet> getMostPopularTweetsForTrend(Trend trend, int numberTweets) {
+        Query query = new Query(trend.getQuery());
         query.setResultType(Query.POPULAR);
         query.setRpp(numberTweets);
         query.setPage(1);

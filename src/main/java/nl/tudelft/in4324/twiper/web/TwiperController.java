@@ -8,10 +8,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Required;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.multiaction.MultiActionController;
-import twitter4j.ResponseList;
-import twitter4j.Trends;
-import twitter4j.Twitter;
-import twitter4j.TwitterFactory;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -24,6 +20,7 @@ public class TwiperController extends MultiActionController{
 
     private TwiperService twiperService;
 
+    @SuppressWarnings("unused")
     public ModelAndView getDailyTrends(HttpServletRequest request, HttpServletResponse response) throws Exception{
         Map<String,String> headers = TwiperProtocolHelper.parseHeaderParameters(request);
         List<TwiperItem> trendingItems = twiperService.getDailyTrendingTweets();

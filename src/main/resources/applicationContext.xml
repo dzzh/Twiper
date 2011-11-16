@@ -5,9 +5,14 @@
 
 	<bean id="twiperService" class="nl.tudelft.in4324.twiper.service.impl.TwiperServiceImpl">
         <property name="twitterService" ref="twitterService"/>
+        <property name="alchemyAPI"  ref="alchemyAPI" />
 	</bean>
 
     <bean id="twitterService" class="nl.tudelft.in4324.twiper.service.impl.TwitterServiceImpl">
 	</bean>
+
+    <bean id="alchemyAPI" class="com.alchemyapi.api.AlchemyAPI" factory-method="GetInstanceFromString">
+        <constructor-arg value="702851f14de36e8296925e8ecd7505998b8b9f3d" />
+    </bean>
 
 </beans>
