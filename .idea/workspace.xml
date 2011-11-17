@@ -2,54 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="339e4974-b0d5-4094-98b1-0b7a701db3e5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_5.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ibm_icu_icu4j_3_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__concurrent_concurrent_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jena_jena_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__oro_oro_2_0_8.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_1_1_1_dev.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xerces_xercesImpl_2_7_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_3_02.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlpull_xmlpull_1_1_3_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xpp3_xpp3_min_1_1_4c.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/AlchemyConnector.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/AlchemyConnectorImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/entity/AlchemyDisambiguationXml.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/entity/AlchemyEntityXml.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/entity/AlchemyNamedEntitiesXml.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xmlbeans_xmlbeans_jsr173_api_2_0_dev.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Twiper_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Twiper_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/zmicier.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/zmicier.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Twiper.iml" afterPath="$PROJECT_DIR$/Twiper.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI_ConceptParams.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI_ConceptParams.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI_ConstraintQueryParams.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI_ConstraintQueryParams.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI_KeywordParams.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI_KeywordParams.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI_NamedEntityParams.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI_NamedEntityParams.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI_Params.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI_Params.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI_RelationParams.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI_RelationParams.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/CategoryTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/CategoryTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/ConceptTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/ConceptTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/ConstraintQueryTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/ConstraintQueryTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/EntityTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/EntityTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/FeedLinksTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/FeedLinksTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/KeywordTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/KeywordTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/LanguageTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/LanguageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/MicroformatTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/MicroformatTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/ParameterTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/ParameterTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/RelationsTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/RelationsTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/SentimentTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/SentimentTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/TextExtractTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/alchemyapi/test/TextExtractTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/entity/TwiperItem.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/entity/TwiperItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/TwitterService.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/TwitterService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/entity/AlchemyEntityXml.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/entity/AlchemyEntityXml.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwiperServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwiperServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwitterServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwitterServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/web/AbstractXmlView.java" afterPath="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/web/AbstractXmlView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
     </list>
     <ignored path="twiper.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,32 +38,6 @@
   <component name="DebuggerManager">
     <line_breakpoints>
       <breakpoint url="file://$PROJECT_DIR$/src/main/java/com/alchemyapi/api/AlchemyAPI.java" line="759" class="com.alchemyapi.api.AlchemyAPI" package="com.alchemyapi.api">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwiperServiceImpl.java" line="34" class="nl.tudelft.in4324.twiper.service.impl.TwiperServiceImpl" package="nl.tudelft.in4324.twiper.service.impl">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwiperServiceImpl.java" line="62" class="nl.tudelft.in4324.twiper.service.impl.TwiperServiceImpl" package="nl.tudelft.in4324.twiper.service.impl">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -168,22 +102,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlchemyConnectorImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/AlchemyConnectorImpl.java">
+      <file leaf-file-name="TwiperServiceImpl.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwiperServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="43" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
+            <state line="75" column="0" selection-start="3260" selection-end="3260" vertical-scroll-proportion="-0.025553662">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwitterServiceImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwitterServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwiperServiceImpl.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwiperServiceImpl.java">
+      <file leaf-file-name="TwitterImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/2.2.5/twitter4j-core-2.2.5-sources.jar!/twitter4j/TwitterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="127" column="48" selection-start="5242" selection-end="5242" vertical-scroll-proportion="0.33333334">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="97" column="0" selection-start="3625" selection-end="3625" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="0" selection-start="2796" selection-end="2796" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -232,10 +184,8 @@
       <file leaf-file-name="AlchemyEntityXml.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/entity/AlchemyEntityXml.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="3" column="28" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -263,13 +213,13 @@
         <option value="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/entity/AlchemyNamedEntitiesXml.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/entity/RichEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/AlchemyConnectorImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/entity/AlchemyEntityXml.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/AlchemyConnector.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/entity/TwiperItem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwiperServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/entity/AlchemyEntityXml.java" />
         <option value="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwitterServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwiperServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -373,6 +323,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twiper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twiper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ontology" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -692,7 +656,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="1054" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -700,7 +664,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Code explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="APIdoc" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33907285" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3197861" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -712,7 +676,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.124370955" sideWeight="0.6701987" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946082" sideWeight="0.6609272" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946082" sideWeight="0.6802139" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3271523" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Pomodoro" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -767,38 +731,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/entity/AlchemyNamedEntitiesXml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/entity/AlchemyDisambiguationXml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="130" column="0" selection-start="2784" selection-end="2784" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/entity/AlchemyEntityXml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/AlchemyConnectorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/aetrion/flickr/flickrapi/1.1/flickrapi-1.1.jar!/com/aetrion/flickr/REST.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="156" selection-end="156" vertical-scroll-proportion="-0.21718377">
@@ -852,13 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="89" column="28" selection-start="2990" selection-end="2990" vertical-scroll-proportion="-0.41025642">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="57" selection-start="396" selection-end="396" vertical-scroll-proportion="-4.090909">
@@ -869,13 +794,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwitterServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="23" selection-start="678" selection-end="678" vertical-scroll-proportion="0.46666667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/TwitterService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="23" selection-start="258" selection-end="258" vertical-scroll-proportion="0.2">
@@ -883,9 +801,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ontology/ontology.owl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="48" selection-start="329" selection-end="329" vertical-scroll-proportion="0.26190478">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="0" selection-start="2796" selection-end="2796" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/3.0.6.RELEASE/spring-webmvc-3.0.6.RELEASE.jar!/org/springframework/web/servlet/mvc/multiaction/MultiActionController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="65" selection-start="3728" selection-end="3728" vertical-scroll-proportion="0.45945945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/commons/connectors/alchemy/entity/AlchemyEntityXml.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/2.2.5/twitter4j-core-2.2.5-sources.jar!/twitter4j/TwitterImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="0" selection-start="3625" selection-end="3625" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwitterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="794" selection-end="794" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/tudelft/in4324/twiper/service/impl/TwiperServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="127" column="48" selection-start="5242" selection-end="5242" vertical-scroll-proportion="0.33333334">
+        <state line="75" column="0" selection-start="3260" selection-end="3260" vertical-scroll-proportion="-0.025553662">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,6 +1,6 @@
 package nl.tudelft.in4324.twiper.commons.connectors.alchemy.entity;
 
-import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.Literal;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamOmitField;
 
@@ -15,14 +15,24 @@ public class AlchemyEntityXml {
     @XStreamAlias("disambiguated")
     private AlchemyDisambiguationXml disambiguation;
     @XStreamOmitField
-    private Model jenaModel;
+    private Literal label;
+    @XStreamOmitField
+    private Literal comment;
 
-    public Model getJenaModel() {
-        return jenaModel;
+    public Literal getLabel() {
+        return label;
     }
 
-    public void setJenaModel(Model jenaModel) {
-        this.jenaModel = jenaModel;
+    public void setLabel(Literal label) {
+        this.label = label;
+    }
+
+    public Literal getComment() {
+        return comment;
+    }
+
+    public void setComment(Literal comment) {
+        this.comment = comment;
     }
 
     public String getType() {

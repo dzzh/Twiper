@@ -6,6 +6,7 @@ import nl.tudelft.in4324.twiper.util.TwiperException;
 import twitter4j.*;
 
 import java.util.List;
+import java.util.Locale;
 
 public class TwitterServiceImpl implements TwitterService {
 
@@ -17,8 +18,10 @@ public class TwitterServiceImpl implements TwitterService {
 
     public List<Tweet> getMostPopularTweetsForTrend(TwiperTrend trend, int numberTweets) {
         Query query = new Query(trend.getTrend().getQuery());
-        query.setResultType(Query.POPULAR);
+        query.setResultType(Query.MIXED);
         query.setRpp(numberTweets);
+        query.setPage(1);
+        query.setLang(Locale.ENGLISH.getLanguage());
 
         try{
             return twitter.search(query).getTweets();

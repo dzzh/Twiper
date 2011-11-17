@@ -3,8 +3,8 @@ package nl.tudelft.in4324.twiper.service.impl;
 import com.aetrion.flickr.Flickr;
 import com.aetrion.flickr.photos.PhotoList;
 import com.aetrion.flickr.photos.SearchParameters;
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.ModelFactory;
+import com.hp.hpl.jena.rdf.model.*;
+import com.hp.hpl.jena.shared.DoesNotExistException;
 import nl.tudelft.in4324.twiper.commons.connectors.alchemy.AlchemyConnector;
 import nl.tudelft.in4324.twiper.commons.connectors.alchemy.entity.AlchemyEntityXml;
 import nl.tudelft.in4324.twiper.entity.TwiperItem;
@@ -12,7 +12,10 @@ import nl.tudelft.in4324.twiper.entity.TwiperTrend;
 import nl.tudelft.in4324.twiper.service.TwiperService;
 import nl.tudelft.in4324.twiper.service.TwitterService;
 import nl.tudelft.in4324.twiper.util.TwiperException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Required;
+import org.xml.sax.SAXParseException;
 import twitter4j.ResponseList;
 import twitter4j.Trend;
 import twitter4j.Trends;
@@ -21,6 +24,8 @@ import twitter4j.Tweet;
 import java.util.*;
 
 public class TwiperServiceImpl implements TwiperService {
+
+    private static final Logger LOG = LoggerFactory.getLogger(TwiperServiceImpl.class);
 
     private static final int TWEETS_FOR_TREND = 3;
     private static final int MAX_TWEETS_TO_CHECK_FOR_TREND = 100;
@@ -125,10 +130,46 @@ public class TwiperServiceImpl implements TwiperService {
                 entity.getDisambiguation().getDbpedia() != null){
                 String resource = entity.getDisambiguation().getDbpedia();
                 Model jena = ModelFactory.createDefaultModel();
-                jena.read(resource);
-                entity.setJenaModel(jena);
+                try{
+                    String convertedResource = convertDbPediaResourceUrlForJena(resource);
+                    jena.read(convertedResource);
+                    Property label = jena.createProperty("http://www.w3.org/2000/01/rdf-schema#label");
+                    entity.setLabel(getRdfProperty(jena, label));
+                    Property comment = jena.createProperty("http://www.w3.org/2000/01/rdf-schema#comment");
+                    entity.setComment(getRdfProperty(jena, comment));
+                } catch (DoesNotExistException dnee){
+                    LOG.error(dnee.getMessage());
+                } catch (Exception e){
+                    LOG.error(e.getMessage());
+                }
             }
         }
+    }
+
+    private Literal getRdfProperty(Model jena, Property property) {
+        StmtIterator iter = jena.listStatements(new SimpleSelector(null, property, (RDFNode)null));
+        Literal literal = null;
+        while (iter.hasNext()){
+            Statement stmt = iter.nextStatement();
+            if (stmt.getObject().isLiteral()){
+                String lang = ((Literal) stmt.getObject()).getLanguage();
+                if (lang.equals(Locale.ENGLISH.getLanguage())){
+                    literal = (Literal) stmt.getObject();
+                    break;
+                }
+            }
+        }
+        return literal;
+    }
+
+
+    /**
+     * Converts url in form of http://dbpedia.org/resource/Ireland to http://dbpedia.org/data/Ireland.rdf
+     * @param resource ...
+     * @return url
+     */
+    private String convertDbPediaResourceUrlForJena(String resource){
+        return "http://dbpedia.org/data/" + resource.substring(resource.lastIndexOf("/") + 1) + ".rdf";
     }
 
     @Required

@@ -83,12 +83,6 @@
             <groupId>net.sourceforge.jena</groupId>
             <artifactId>jena</artifactId>
             <version>2.3</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>xmlbeans-jsr173-api</artifactId>
-                    <groupId>xmlbeans</groupId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
     </dependencies>
@@ -143,5 +137,13 @@
             </build>
         </profile>
     </profiles>
+
+     <repositories>
+        <repository>
+            <id>OPS4J</id>
+            <name>Ops4J Repository</name>
+            <url>http://repository.ops4j.org/maven2/</url>
+        </repository>
+    </repositories>
 
 </project>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: xmlbeans:xmlbeans-jsr173-api:2.0-dev">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/xmlbeans/xmlbeans-jsr173-api/2.0-dev/xmlbeans-jsr173-api-2.0-dev.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/xmlbeans/xmlbeans-jsr173-api/2.0-dev/xmlbeans-jsr173-api-2.0-dev-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/xmlbeans/xmlbeans-jsr173-api/2.0-dev/xmlbeans-jsr173-api-2.0-dev-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
