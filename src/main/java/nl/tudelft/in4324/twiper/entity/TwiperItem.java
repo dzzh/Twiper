@@ -1,12 +1,14 @@
 package nl.tudelft.in4324.twiper.entity;
 
-import org.w3c.dom.Document;
+import com.aetrion.flickr.photos.PhotoList;
+import nl.tudelft.in4324.twiper.commons.connectors.alchemy.entity.AlchemyNamedEntitiesXml;
 import twitter4j.Tweet;
 
 public class TwiperItem {
 
     private Tweet tweet;
-    private Document resolvedEntities;
+    private AlchemyNamedEntitiesXml resolvedEntities;
+    private PhotoList photos;
 
     public TwiperItem(Tweet tweet){
         this.tweet = tweet;
@@ -20,11 +22,19 @@ public class TwiperItem {
         this.tweet = tweet;
     }
 
-    public Document getResolvedEntities() {
+    public void setResolvedEntities(AlchemyNamedEntitiesXml resolvedEntities) {
+        this.resolvedEntities = resolvedEntities;
+    }
+
+    public AlchemyNamedEntitiesXml getResolvedEntities() {
         return resolvedEntities;
     }
 
-    public void setResolvedEntities(Document resolvedEntities) {
-        this.resolvedEntities = resolvedEntities;
+    public PhotoList getPhotos() {
+        return photos;
+    }
+
+    public void setPhotos(PhotoList photos) {
+        this.photos = photos;
     }
 }

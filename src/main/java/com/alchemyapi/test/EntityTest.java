@@ -1,17 +1,17 @@
 package com.alchemyapi.test;
 
 import com.alchemyapi.api.AlchemyAPI;
-
-import org.xml.sax.SAXException;
 import org.w3c.dom.Document;
-import java.io.*;
+import org.xml.sax.SAXException;
+
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.xpath.XPathExpressionException;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import javax.xml.xpath.XPathExpressionException;
+import java.io.*;
 
 class EntityTest {
     public static void main(String[] args)
@@ -19,7 +19,7 @@ class EntityTest {
                ParserConfigurationException, XPathExpressionException
     {
         // Create an AlchemyAPI object.
-        AlchemyAPI alchemyObj = AlchemyAPI.GetInstanceFromFile("api_key.txt");
+        AlchemyAPI alchemyObj = AlchemyAPI.GetInstanceFromString("702851f14de36e8296925e8ecd7505998b8b9f3d");
 
         // Extract a ranked list of named entities for a web URL.
         Document doc = alchemyObj.URLGetRankedNamedEntities("http://www.techcrunch.com/");

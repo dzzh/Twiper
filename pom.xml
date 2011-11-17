@@ -17,7 +17,6 @@
         <jetty.server.port>8080</jetty.server.port>
     </properties>
 
-
     <dependencies>
 
         <dependency>
@@ -72,6 +71,24 @@
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
             <version>2.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.thoughtworks.xstream</groupId>
+            <artifactId>xstream</artifactId>
+            <version>1.4.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>net.sourceforge.jena</groupId>
+            <artifactId>jena</artifactId>
+            <version>2.3</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>xmlbeans-jsr173-api</artifactId>
+                    <groupId>xmlbeans</groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
     </dependencies>

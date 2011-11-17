@@ -2,6 +2,8 @@
   <dictionary name="zmicier">
     <words>
       <w>alchemyapi</w>
+      <w>disambiguations</w>
+      <w>flickr</w>
       <w>springframework</w>
       <w>twiper</w>
     </words>

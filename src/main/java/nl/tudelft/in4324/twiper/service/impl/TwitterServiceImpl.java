@@ -1,5 +1,6 @@
 package nl.tudelft.in4324.twiper.service.impl;
 
+import nl.tudelft.in4324.twiper.entity.TwiperTrend;
 import nl.tudelft.in4324.twiper.service.TwitterService;
 import nl.tudelft.in4324.twiper.util.TwiperException;
 import twitter4j.*;
@@ -14,11 +15,10 @@ public class TwitterServiceImpl implements TwitterService {
         this.twitter = new TwitterFactory().getInstance();
     }
 
-    public List<Tweet> getMostPopularTweetsForTrend(Trend trend, int numberTweets) {
-        Query query = new Query(trend.getQuery());
+    public List<Tweet> getMostPopularTweetsForTrend(TwiperTrend trend, int numberTweets) {
+        Query query = new Query(trend.getTrend().getQuery());
         query.setResultType(Query.POPULAR);
         query.setRpp(numberTweets);
-        query.setPage(1);
 
         try{
             return twitter.search(query).getTweets();

@@ -1,17 +1,18 @@
 package com.alchemyapi.test;
 
-import com.alchemyapi.api.*;
-
-import org.xml.sax.SAXException;
+import com.alchemyapi.api.AlchemyAPI;
+import com.alchemyapi.api.AlchemyAPI_NamedEntityParams;
 import org.w3c.dom.Document;
-import java.io.*;
+import org.xml.sax.SAXException;
+
 import javax.xml.parsers.ParserConfigurationException;
-import javax.xml.xpath.XPathExpressionException;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
+import javax.xml.xpath.XPathExpressionException;
+import java.io.*;
 
 class ParameterTest {
     public static void main(String[] args)
